@@ -8,7 +8,7 @@ The purpose of this project is to visualize the event-driven architecture using 
 
 ### Events
 
-1. Set Budget, notes and start order - this will begin the order, aka status will be ready
+1. Set Budget, notes - this will set the order, aka status will be ready
 2. Once the order is ready, then the courier will make the order active by starting the order
 3. The courier then picks up the order, changing the status to collected
 4. Finally, the courier delivers the order, closing the order and status becomes completed.
